@@ -1,0 +1,14 @@
+{
+    "name": "drkthunder02/EveRentalPaymentTracker",
+    "description": "Rental Tracker for Eve Online which looks through API to keep track of moon rentals",
+    "authors": [
+        {
+            "name": "drkthunder02",
+            "email": "mancuso.christopher@gmail.com"
+        }
+    ],
+    "require": {
+        "simplon/mysql": "dev-master",
+        "khill/lavacharts" : "~3.0"
+    }
+}
