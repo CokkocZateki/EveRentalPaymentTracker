@@ -9,6 +9,7 @@
     ],
     "require": {
         "simplon/mysql": "dev-master",
-        "khill/lavacharts" : "~3.0"
+        "khill/lavacharts" : "~3.0",
+        "3rdpartyeve/phealng": "~2.0"
     }
 }

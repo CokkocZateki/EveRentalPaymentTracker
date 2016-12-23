@@ -8,6 +8,9 @@ class ComposerStaticInit5c1a9aaf3206311a821f5612f0c04900
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -17,9 +20,21 @@ class ComposerStaticInit5c1a9aaf3206311a821f5612f0c04900
             'Symfony\\Component\\Translation\\' => 30,
             'Simplon\\Mysql\\' => 14,
         ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
+            'Pheal\\' => 6,
+        ),
         'K' => 
         array (
             'Khill\\Lavacharts\\' => 17,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'C' => 
         array (
@@ -40,9 +55,33 @@ class ComposerStaticInit5c1a9aaf3206311a821f5612f0c04900
         array (
             0 => __DIR__ . '/..' . '/simplon/mysql/src',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Pheal\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/3rdpartyeve/phealng/lib/Pheal',
+        ),
         'Khill\\Lavacharts\\' => 
         array (
             0 => __DIR__ . '/..' . '/khill/lavacharts/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
         'Carbon\\' => 
         array (
